@@ -67,6 +67,6 @@ with st.spinner ("Generate your answer......")
 except Exception as e:
     st.error ("API connection was unsuccessful : ", e)
     st.info("Please check your API key and rate limits")
-st.caption("powered by streamlit.io And GitHUb
+st.caption("powered by streamlit.io And GitHub")
                          
     
